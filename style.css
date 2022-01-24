@@ -12,10 +12,11 @@ body {
 }
 
 header {
-
+font-family: "Blippo", fantasy;
 }
 
 footer {
+	font-family: "Blippo", fantasy;
 	font-style: italic;
 	font-size: 90%;
 }
