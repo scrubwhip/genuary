@@ -61,7 +61,7 @@ int x;
 int y;
 int r;
 void setup(){
-  size(800, 800);
+  size(400, 400);
   w = new Wave();
   c = new cool();
   x = 0;
@@ -74,8 +74,8 @@ void draw(){
   
  //w.show();
  //w.move();
-while(y<800){
-while(x<800){
+while(y<410){
+while(x<410){
  c.make(x, y, r);
  x+=r;
 }
